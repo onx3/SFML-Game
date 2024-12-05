@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
@@ -10,15 +11,17 @@ public:
 	Game();
 	~Game();
 
-	void PollEvents();
-
 	void Update();
 	void Render();
 
 	sf::RenderWindow * mpWindow;
 	sf::Event mEvent;
 
+	sf::RectangleShape mEnemy;
+
 private:
+	void PollEvents();
+	void InitEnemies();
 	void InitWindow();
 };
 

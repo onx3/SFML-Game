@@ -9,7 +9,7 @@ int main()
 
     while (pWindow->isOpen())
     {
-        pGame->PollEvents();
+        pGame->Update();
 
         // Render the game
         pGame->Render();        

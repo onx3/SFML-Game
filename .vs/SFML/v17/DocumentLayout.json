@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "SFML\\Game.cpp",
               "ToolTip": "D:\\SFML-Game\\SFML\\Game.cpp",
               "RelativeToolTip": "SFML\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T20:55:00.852Z",
               "EditorCaption": ""
@@ -45,10 +45,9 @@
               "RelativeDocumentMoniker": "SFML\\Game.h",
               "ToolTip": "D:\\SFML-Game\\SFML\\Game.h",
               "RelativeToolTip": "SFML\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-05T20:54:37.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T20:54:37.034Z"
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "SFML\\Main.cpp",
               "ToolTip": "D:\\SFML-Game\\SFML\\Main.cpp",
               "RelativeToolTip": "SFML\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T20:21:05.135Z"
             }
