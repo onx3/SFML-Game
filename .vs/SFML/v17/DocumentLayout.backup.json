@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "D:\\SFML-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\EnemyAI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\EnemyAI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|D:\\SFML-Game\\SFML\\EnemyAI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24AFFD6C-C633-4081-A4AD-6E30A745DC28}|SFML\\SFML.vcxproj|solutionrelative:SFML\\EnemyAI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +33,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
+              "ViewState": "AgIAAEwHAAAAAAAAAAAvwGMHAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-05T23:31:47.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyAI.cpp",
+              "DocumentMoniker": "D:\\SFML-Game\\SFML\\EnemyAI.cpp",
+              "RelativeDocumentMoniker": "SFML\\EnemyAI.cpp",
+              "ToolTip": "D:\\SFML-Game\\SFML\\EnemyAI.cpp",
+              "RelativeToolTip": "SFML\\EnemyAI.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T22:49:16.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyAI.h",
+              "DocumentMoniker": "D:\\SFML-Game\\SFML\\EnemyAI.h",
+              "RelativeDocumentMoniker": "SFML\\EnemyAI.h",
+              "ToolTip": "D:\\SFML-Game\\SFML\\EnemyAI.h",
+              "RelativeToolTip": "SFML\\EnemyAI.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T22:47:19.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "D:\\SFML-Game\\SFML\\Game.cpp",
-              "RelativeDocumentMoniker": "SFML\\Game.cpp",
-              "ToolTip": "D:\\SFML-Game\\SFML\\Game.cpp",
-              "RelativeToolTip": "SFML\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "D:\\SFML-Game\\SFML\\GameManager.cpp",
+              "RelativeDocumentMoniker": "SFML\\GameManager.cpp",
+              "ToolTip": "D:\\SFML-Game\\SFML\\GameManager.cpp",
+              "RelativeToolTip": "SFML\\GameManager.cpp",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T20:55:00.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.h",
-              "DocumentMoniker": "D:\\SFML-Game\\SFML\\Game.h",
-              "RelativeDocumentMoniker": "SFML\\Game.h",
-              "ToolTip": "D:\\SFML-Game\\SFML\\Game.h",
-              "RelativeToolTip": "SFML\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "D:\\SFML-Game\\SFML\\GameManager.h",
+              "RelativeDocumentMoniker": "SFML\\GameManager.h",
+              "ToolTip": "D:\\SFML-Game\\SFML\\GameManager.h",
+              "RelativeToolTip": "SFML\\GameManager.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA5wB8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T20:54:37.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\SFML-Game\\SFML\\Main.cpp",
               "RelativeDocumentMoniker": "SFML\\Main.cpp",
               "ToolTip": "D:\\SFML-Game\\SFML\\Main.cpp",
               "RelativeToolTip": "SFML\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T20:21:05.135Z",
               "EditorCaption": ""

@@ -1,20 +1,20 @@
 #include <iostream>
-#include "Game.h"
+#include "GameManager.h"
 
 int main()
 {
-    Game * pGame = new Game();
-    auto * pWindow = pGame->mpWindow;
-    auto & event = pGame->mEvent;
+    GameManager * pGameManager = new GameManager();
+    auto * pWindow = pGameManager->mpWindow;
+    auto & event = pGameManager->mEvent;
 
     while (pWindow->isOpen())
     {
-        pGame->Update();
+        pGameManager->Update();
 
         // Render the game
-        pGame->Render();        
+        pGameManager->Render();
     }
 
-    delete pGame;
+    delete pGameManager;
     return 0;
 }
