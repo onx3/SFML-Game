@@ -20,6 +20,9 @@
     <ClCompile Include="EnemyAI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameManager.h">
@@ -28,5 +31,6 @@
     <ClInclude Include="EnemyAI.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Player.h" />
   </ItemGroup>
 </Project>

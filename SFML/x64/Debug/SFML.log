@@ -1,2 +1,7 @@
-﻿  GameManager.cpp
+﻿  EnemyAI.cpp
+  GameManager.cpp
+  Main.cpp
+  Player.cpp
+D:\SFML-Game\SFML\Player.cpp(11,2): warning C4002: too many arguments for function-like macro invocation 'assert'
+  Generating Code...
   SFML.vcxproj -> D:\SFML-Game\x64\Debug\SFML.exe

@@ -6,6 +6,7 @@
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
 #include "EnemyAI.h"
+#include "Player.h"
 
 class GameManager
 {
@@ -29,5 +30,7 @@ private:
 
 	sf::Texture mBackgroundTexture;
 	sf::Sprite mBackgroundSprite;
+
+	Player mPlayer;
 };
 

@@ -2,8 +2,14 @@
 
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Window.hpp>
+
+enum class EEnemy
+{
+	Ship,
+	Ufo,
+};
+
+//------------------------------------------------------------------------------------------------------------------------
 
 class EnemyAI : public sf::Drawable
 {

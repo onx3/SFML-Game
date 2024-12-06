@@ -8,6 +8,7 @@ GameManager::GameManager()
     , mEnemies()
     , mBackgroundTexture()
     , mBackgroundSprite()
+    , mPlayer()
 {
     InitWindow();
     InitEnemies();
@@ -56,6 +57,11 @@ void GameManager::Update()
         auto relativeMousePos = sf::Mouse::getPosition(*mpWindow);
         std::cout << "Mouse pos : " << sf::Mouse::getPosition(*mpWindow).x << " " << sf::Mouse::getPosition(*mpWindow).y << "\n";
     }
+    if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
+    {
+        // UPDATE FOR FUTURE
+        mPlayer.Move(sf::Vector2f(2.f, 2.f));
+    }
 }
 
 //------------------------------------------------------------------------------------------------------------------------
@@ -65,11 +71,18 @@ void GameManager::Render()
     mpWindow->clear();
 
     // Draw the Game
-    mpWindow->draw(mBackgroundSprite);
-    
-    for (auto enemy : mEnemies)
     {
-        mpWindow->draw(enemy);
+        // Draw Background
+        mpWindow->draw(mBackgroundSprite);
+
+        // Draw Player
+        mpWindow->draw(mPlayer);
+
+        // Draw Enemies
+        for (auto enemy : mEnemies)
+        {
+            mpWindow->draw(enemy);
+        }
     }
 
     mpWindow->display(); // Renderer is done keep at the end.
