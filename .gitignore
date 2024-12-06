@@ -8,7 +8,7 @@
 *.nativecodeanalysis.xml
 *.lib
 build
-.vs
+.vs/
 c_cpp_properties.json
 settings.json
 .clangd
