@@ -4,8 +4,6 @@
 GameManager::GameManager()
     : mpWindow(nullptr)
     , mEvent()
-    , mEnemyTextures()
-    , mEnemies()
     , mBackgroundTexture()
     , mBackgroundSprite()
     , mPlayer()
@@ -71,7 +69,7 @@ void GameManager::Render()
         mpWindow->draw(mPlayer);
 
         // Draw Enemies
-        for (auto enemy : mEnemies)
+        for (auto enemy : mEnemyManager.GetAllEnemies())
         {
             mpWindow->draw(enemy);
         }
@@ -84,19 +82,7 @@ void GameManager::Render()
 
 void GameManager::InitEnemies()
 {
-    mEnemies.push_back(EnemyAI());
-
-    std::string file = "Art/enemyUFO.png";
-    sf::Texture texture;
-    if (!texture.loadFromFile(file))
-    {
-        // Handle error
-        std::cout << "Can't load the file";
-    }
-
-    mEnemyTextures.push_back(texture);
-    mEnemies.back().SetTexture(mEnemyTextures.back());
-    mEnemies.back().SetPosition(100.f, 100.f);
+    mEnemyManager.AddEnemies(1, EEnemy::Ship, sf::Vector2f(100.f, 100.f));
 }
 
 //------------------------------------------------------------------------------------------------------------------------

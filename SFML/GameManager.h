@@ -5,7 +5,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
-#include "EnemyAI.h"
+#include "EnemyAIManager.h"
 #include "Player.h"
 
 class GameManager
@@ -25,8 +25,7 @@ private:
 	void InitEnemies();
 	void InitWindow();
 
-	std::vector<sf::Texture> mEnemyTextures;
-	std::vector<EnemyAI> mEnemies;
+	EnemyAIManager mEnemyManager;
 
 	sf::Texture mBackgroundTexture;
 	sf::Sprite mBackgroundSprite;

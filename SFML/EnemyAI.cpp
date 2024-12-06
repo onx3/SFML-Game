@@ -1,14 +1,6 @@
 #include "EnemyAI.h"
 #include "cassert"
 
-EnemyAI::EnemyAI()
-	: mTexture()
-	, mSprite()
-	, mEnemyType()
-{
-
-}
-
 //------------------------------------------------------------------------------------------------------------------------
 
 EnemyAI::EnemyAI(const EEnemy & enemyType)
@@ -30,28 +22,32 @@ EnemyAI::~EnemyAI()
 
 void EnemyAI::InitEnemy()
 {
-	std::string file;
-	switch (mEnemyType)
-	{
-		case (EEnemy::Ship):
-			file = "Art/enemyShip.png";
-			assert(mTexture.loadFromFile(file));
-			mSprite.setTexture(mTexture);
-			break;
+    std::string file;
+    switch (mEnemyType)
+    {
+        case EEnemy::Ship:
+            file = "Art/enemyShip.png";
+            break;
 
-		case (EEnemy::Ufo):
-			file = "Art/enemyUFO.png";
-			assert(mTexture.loadFromFile(file));
-			mSprite.setTexture(mTexture);
-			break;
-	}
+        case EEnemy::Ufo:
+            file = "Art/enemyUFO.png";
+            break;
+    }
+
+    SetTexture(file);
 }
 
 //------------------------------------------------------------------------------------------------------------------------
 
-void EnemyAI::SetTexture(const sf::Texture & texture)
+void EnemyAI::SetTexture(const std::string & file)
 {
-	mSprite.setTexture(texture);
+    if (!mTexture.loadFromFile(file))
+    {
+        //std::cerr << "Error: Could not load texture from " << file << std::endl;
+        assert(false);
+    }
+
+    mSprite.setTexture(mTexture);
 }
 
 //------------------------------------------------------------------------------------------------------------------------
