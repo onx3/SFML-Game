@@ -52,16 +52,8 @@ void GameManager::Update()
 {
     PollEvents();
 
-    if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
-    {
-        auto relativeMousePos = sf::Mouse::getPosition(*mpWindow);
-        std::cout << "Mouse pos : " << sf::Mouse::getPosition(*mpWindow).x << " " << sf::Mouse::getPosition(*mpWindow).y << "\n";
-    }
-    if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
-    {
-        // UPDATE FOR FUTURE
-        mPlayer.Move(sf::Vector2f(2.f, 2.f));
-    }
+    auto relativeMousePos = sf::Mouse::getPosition(*mpWindow);
+    mPlayer.SetPosition(sf::Vector2f(float(relativeMousePos.x), float(relativeMousePos.y)));
 }
 
 //------------------------------------------------------------------------------------------------------------------------

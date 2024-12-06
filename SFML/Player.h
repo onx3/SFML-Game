@@ -8,8 +8,8 @@ public:
 	Player();
 	~Player();
 
-	void SetPosition(sf::Vector2f & pos);
-	void Move(sf::Vector2f offset);
+	void SetPosition(const sf::Vector2f & pos);
+	void Move(const sf::Vector2f & offset);
 
 protected:
 	void draw(sf::RenderTarget & target, sf::RenderStates states) const override;

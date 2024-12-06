@@ -22,14 +22,14 @@ Player::~Player()
 
 //------------------------------------------------------------------------------------------------------------------------
 
-void Player::SetPosition(sf::Vector2f & pos)
+void Player::SetPosition(const sf::Vector2f & pos)
 {
 	mSprite.setPosition(pos);
 }
 
 //------------------------------------------------------------------------------------------------------------------------
 
-void Player::Move(sf::Vector2f offset)
+void Player::Move(const sf::Vector2f & offset)
 {
 	mSprite.move(offset);
 }
